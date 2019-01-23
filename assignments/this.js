@@ -44,7 +44,7 @@ function example1() {
 let user2 = {
     example2: "principle 2",
     test2() {
-        alert(`example of ${this.example}`)
+        console.log(`example of ${this.example}`)
     }
 }
 
@@ -68,7 +68,7 @@ let me = new User3('principle', 3)
 // code example for Explicit Binding
 
 function example4 () {
-    alert (`example of ${ex2}`)
+    console.log(`example of ${this.ex2}`)
 };
 
 let user4 = {
